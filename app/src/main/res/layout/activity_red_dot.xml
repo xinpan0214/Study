@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windows_color"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/layout_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bbbbbb_2.3"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="红点大小"
+                android:textSize="20sp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <zhaoqy.com.study.textview.reddot.RedDotTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_grey_color"
+                    android:ellipsize="end"
+                    android:textSize="22sp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"
+                    android:text="ABCD"
+                    app:redDotVisibility="visible"
+                    android:textColor="@color/colorBlack" />
+
+
+                <zhaoqy.com.study.textview.reddot.RedDotTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:background="@color/light_grey_color"
+                    android:ellipsize="end"
+                    android:textSize="22sp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="8dp"
+                    android:text="ABCD"
+                    app:redDotVisibility="visible"
+                    android:textColor="@color/colorBlack"/>
+
+                <zhaoqy.com.study.textview.reddot.RedDotTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:background="@color/light_grey_color"
+                    android:ellipsize="end"
+                    android:textSize="22sp"
+                    android:paddingRight="5dp"
+                    android:text="ABCD"
+                    app:redDotVisibility="visible"
+                    android:textColor="@color/colorBlack"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bbbbbb_2.3"
+                android:layout_marginTop="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="文字自适应"
+                android:textSize="20sp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <zhaoqy.com.study.textview.reddot.RedDotTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_grey_color"
+                    android:ellipsize="end"
+                    android:textSize="22sp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"
+                    android:text="ABCD"
+                    app:redDotVisibility="visible"
+                    android:textColor="@color/colorBlack" />
+
+
+                <zhaoqy.com.study.textview.reddot.RedDotTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:background="@color/light_grey_color"
+                    android:ellipsize="end"
+                    android:textSize="22sp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"
+                    android:text="ABCDEF"
+                    app:redDotVisibility="visible"
+                    android:textColor="@color/colorBlack"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bbbbbb_2.3"
+                android:layout_marginTop="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="文字宽度固定"
+                android:textSize="20sp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <zhaoqy.com.study.textview.reddot.RedDotTextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_grey_color"
+                    android:ellipsize="end"
+                    android:textSize="22sp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"
+                    android:text="ABCDEF"
+                    app:redDotVisibility="visible"
+                    android:textColor="@color/colorBlack"/>
+
+                <zhaoqy.com.study.textview.reddot.RedDotTextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:background="@color/light_grey_color"
+                    android:ellipsize="end"
+                    android:textSize="22sp"
+                    android:paddingTop="5dp"
+                    android:maxLines="1"
+                    android:paddingRight="10dip"
+                    android:text="ABCDEFGHIJK"
+                    app:redDotVisibility="visible"
+                    android:textColor="@color/colorBlack"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bbbbbb_2.3"
+                android:layout_marginTop="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="文字宽度+高度固定"
+                android:textSize="20sp"
+                android:gravity="center"/>
+
+            <zhaoqy.com.study.textview.reddot.RedDotTextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/light_grey_color"
+                android:layout_gravity="center_horizontal"
+                android:ellipsize="end"
+                android:textSize="22sp"
+                android:paddingRight="10dp"
+                android:text="ABCDEFGHI"
+                app:redDotVisibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bbbbbb_2.3"
+                android:layout_marginTop="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="隐藏红点"
+                android:textSize="20sp"
+                android:gravity="center"/>
+
+            <zhaoqy.com.study.textview.reddot.RedDotTextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/light_grey_color"
+                android:layout_gravity="center_horizontal"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:textSize="22sp"
+                android:paddingRight="10dip"
+                android:text="ABCDEF"
+                app:redDotVisibility="invisible" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

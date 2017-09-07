@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windows_color"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/layout_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <zhaoqy.com.study.custom.VerticalCard
+                android:id="@+id/main_pop"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_item_height"
+                app:vc_title="popWondow"/>
+
+            <zhaoqy.com.study.custom.VerticalCard
+                android:id="@+id/main_image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_item_height"
+                app:vc_title="ImageView"/>
+
+            <zhaoqy.com.study.custom.VerticalCard
+                android:id="@+id/main_text"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_item_height"
+                app:vc_title="TextView"/>
+
+            <zhaoqy.com.study.custom.VerticalCard
+                android:id="@+id/main_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_item_height"
+                app:vc_title="Dialog"/>
+
+            <zhaoqy.com.study.custom.VerticalCard
+                android:id="@+id/main_reside"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_item_height"
+                app:vc_title="ResideLayout"/>
+
+            <zhaoqy.com.study.custom.VerticalCard
+                android:id="@+id/main_custom"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_item_height"
+                app:vc_title="自定义View"/>
+
+            <zhaoqy.com.study.custom.VerticalCard
+                android:id="@+id/main_statusbar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_item_height"
+                app:vc_title="状态栏"/>
+
+            <zhaoqy.com.study.custom.VerticalCard
+                android:id="@+id/main_pie"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_item_height"
+                app:vc_title="饼状图"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
