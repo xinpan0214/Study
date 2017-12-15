@@ -73,7 +73,7 @@ public class ResideLayoutActivity extends BaseCompatActivity {
     @Override
     protected void loadData() {
         Picasso.with(this)
-                .load(R.mipmap.guojia)
+                .load(R.mipmap.head)
                 // .transform(new RoundTransform(90))
                 .transform(new CropCircleTransform())
                 .into(mAvatar);

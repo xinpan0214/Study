@@ -40,6 +40,30 @@
                 android:layout_height="@dimen/main_item_height"
                 app:vc_title="Picasso加载"/>
 
+            <zhaoqy.com.study.custom.VerticalCard
+                android:id="@+id/image_item3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_item_height"
+                app:vc_title="Glide加载"/>
+
+            <zhaoqy.com.study.custom.VerticalCard
+                android:id="@+id/image_item4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_item_height"
+                app:vc_title="Fresco加载"/>
+
+            <zhaoqy.com.study.custom.VerticalCard
+                android:id="@+id/image_item5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_item_height"
+                app:vc_title="Universal-Image-Loader加载"/>
+
+            <zhaoqy.com.study.custom.VerticalCard
+                android:id="@+id/image_item6"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_item_height"
+                app:vc_title="GIF图片加载"/>
+
         </LinearLayout>
 
     </ScrollView>

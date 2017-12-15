@@ -26,7 +26,7 @@
                 android:layout_height="80dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="35dp"
-                android:src="@mipmap/guojia"/>
+                android:src="@mipmap/head"/>
 
             <TextView
                 android:id="@+id/desc"

@@ -67,14 +67,20 @@ public class PicassoActivity extends BaseActivity implements View.OnClickListene
                 break;
             }
             case R.id.bt1: {
+                /**
+                 * 加载资源图片
+                 */
                 Picasso.with(this)
-                        .load(R.mipmap.guojia)
+                        .load(R.mipmap.head)
                         .into(imageView);
                 break;
             }
             case R.id.bt2: {
+                /**
+                 * 圆角
+                 */
                 Picasso.with(this)
-                        .load(R.mipmap.guojia)
+                        .load(R.mipmap.head)
                         .transform(new CropCircleTransform())
                         .into(imageView);
                 break;
@@ -105,7 +111,7 @@ public class PicassoActivity extends BaseActivity implements View.OnClickListene
             case R.id.bt6: {
 
                 Picasso.with(this)
-                        .load(R.mipmap.guojia)
+                        .load(R.mipmap.head)
                         //裁剪图片尺寸
                         .resize(100, 100)
                         //设置图片圆角

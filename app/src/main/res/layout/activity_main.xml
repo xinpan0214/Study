@@ -53,6 +53,12 @@
                 app:vc_title="ResideLayout"/>
 
             <zhaoqy.com.study.custom.VerticalCard
+                android:id="@+id/main_swiperefresh"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_item_height"
+                app:vc_title="SwipeRefreshLayout"/>
+
+            <zhaoqy.com.study.custom.VerticalCard
                 android:id="@+id/main_custom"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/main_item_height"
@@ -65,10 +71,22 @@
                 app:vc_title="状态栏"/>
 
             <zhaoqy.com.study.custom.VerticalCard
+                android:id="@+id/main_immersion"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_item_height"
+                app:vc_title="沉浸式效果"/>
+
+            <zhaoqy.com.study.custom.VerticalCard
                 android:id="@+id/main_pie"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/main_item_height"
                 app:vc_title="饼状图"/>
+
+            <zhaoqy.com.study.custom.VerticalCard
+                android:id="@+id/main_permissions"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_item_height"
+                app:vc_title="权限管理"/>
 
 
         </LinearLayout>

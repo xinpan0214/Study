@@ -8,6 +8,8 @@ import android.widget.TextView;
 import zhaoqy.com.study.R;
 import zhaoqy.com.study.base.BaseActivity;
 import zhaoqy.com.study.custom.VerticalCard;
+import zhaoqy.com.study.img.gif.GifActivity;
+import zhaoqy.com.study.img.glide.GlideActivity;
 import zhaoqy.com.study.img.load.PicassoActivity;
 import zhaoqy.com.study.img.shadow.ShadowActivity;
 import zhaoqy.com.study.img.vip.VipActivity;
@@ -36,6 +38,10 @@ public class ImageMainActivity extends BaseActivity implements View.OnClickListe
         ((VerticalCard) findViewById(R.id.image_item0)).setOnVCListener(this);
         ((VerticalCard) findViewById(R.id.image_item1)).setOnVCListener(this);
         ((VerticalCard) findViewById(R.id.image_item2)).setOnVCListener(this);
+        ((VerticalCard) findViewById(R.id.image_item3)).setOnVCListener(this);
+        ((VerticalCard) findViewById(R.id.image_item4)).setOnVCListener(this);
+        ((VerticalCard) findViewById(R.id.image_item5)).setOnVCListener(this);
+        ((VerticalCard) findViewById(R.id.image_item6)).setOnVCListener(this);
     }
 
     @Override
@@ -67,17 +73,54 @@ public class ImageMainActivity extends BaseActivity implements View.OnClickListe
     public void onVcClick(View view) {
         switch (view.getId()) {
             case R.id.image_item0: {
+                /**
+                 * VIP表示圆形头像
+                 */
                 Intent intent = new Intent(this, VipActivity.class);
                 startActivity(intent);
                 break;
             }
             case R.id.image_item1: {
+                /**
+                 * 阴影效果
+                 */
                 Intent intent = new Intent(this, ShadowActivity.class);
                 startActivity(intent);
                 break;
             }
             case R.id.image_item2: {
+                /**
+                 * Picasso加载
+                 */
                 Intent intent = new Intent(this, PicassoActivity.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.image_item3: {
+                /**
+                 * Glide加载
+                 */
+                Intent intent = new Intent(this, GlideActivity.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.image_item4: {
+                /**
+                 * Fresco加载
+                 */
+                break;
+            }
+            case R.id.image_item5: {
+                /**
+                 * Universal-Image-Loader加载
+                 */
+                break;
+            }
+            case R.id.image_item6: {
+                /**
+                 * GIF图片加载
+                 */
+                Intent intent = new Intent(this, GifActivity.class);
                 startActivity(intent);
                 break;
             }

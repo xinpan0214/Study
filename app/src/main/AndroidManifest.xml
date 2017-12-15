@@ -3,6 +3,9 @@
           package="zhaoqy.com.study">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -54,19 +57,48 @@
             android:name=".img.shadow.ShadowActivity"
             android:label="@string/app_name"/>
 
+        <!-- Picasso加载 -->
+        <activity
+            android:name=".img.load.PicassoActivity"
+            android:label="@string/app_name"/>
+
+        <!-- Glide加载 -->
+        <activity
+            android:name=".img.glide.GlideActivity"
+            android:label="@string/app_name"/>
+
+        <!-- GIF图片显示 -->
+        <activity
+            android:name=".img.gif.GifActivity"
+            android:label="@string/app_name"/>
+
         <!-- 饼状图 -->
         <activity
             android:name=".pie.PieMainActivity"
             android:label="@string/app_name"/>
+
+        <!-- ResideLayout -->
         <activity
             android:name=".residelayout.ResideLayoutActivity"
             android:label="@string/app_name"
             android:theme="@style/BrownTheme"/>
 
-        <!-- Picasso加载 -->
+        <!-- SwipeRefreshLayout -->
         <activity
-            android:name=".img.load.PicassoActivity"
+            android:name=".swiperefresh.SwipeMainActivity"
             android:label="@string/app_name"/>
+
+        <!-- SwipeRefresh + RecyclerView -->
+        <activity
+            android:name=".swiperefresh.SwipeRecyclerActivity"
+            android:label="@string/app_name"
+            android:theme="@style/RecyclerTheme"/>
+
+        <!-- SwipeRefresh + TextView -->
+        <activity
+            android:name=".swiperefresh.SwipeTextActivity"
+            android:label="@string/app_name"
+            android:theme="@style/RecyclerTheme"/>
 
         <!-- 自定义view -->
         <activity
@@ -105,8 +137,68 @@
             android:label="@string/app_name"/>
 
         <!-- 自定义仪表盘 -->
-        <activity android:name=".customview.speedcontrol.SpeedControlActivity"
-                  android:label="@string/app_name" />
+        <activity
+            android:name=".customview.speedcontrol.SpeedControlActivity"
+            android:label="@string/app_name"/>
+
+        <!-- 沉浸式效果 -->
+        <activity
+            android:name=".immersion.ImmersionActivity"
+            android:label="@string/app_name"
+            android:theme="@style/ImmersionTheme"/>
+
+        <!-- 博客 -->
+        <activity
+            android:name=".immersion.ui.BlogActivity"
+            android:hardwareAccelerated="false"
+            android:layerType="software"
+            android:theme="@style/ImmersionTheme"/>
+
+        <!-- CoordinatorLayout -->
+        <activity
+            android:name=".immersion.ui.CoordinatorActivity"
+            android:theme="@style/ImmersionTheme"/>
+
+        <!-- ActionBar 使用默认的theme -->
+        <activity
+            android:name=".immersion.ui.ActionBarActivity"
+            android:theme="@style/ActionBar"/>
+        <activity
+            android:name=".immersion.ui.InmersionDialogActivity"
+            android:theme="@style/ImmersionTheme"/>
+
+        <!-- 全屏图片 -->
+        <activity
+            android:name=".immersion.ui.FullPicActivity"
+            android:theme="@style/AppTheme.Transparent"/>
+
+        <!-- 标题栏背景色渐变 -->
+        <activity
+            android:name=".immersion.ui.ShapeActivity"
+            android:theme="@style/ImmersionTheme"/>
+
+        <!-- 图片状态栏 -->
+        <activity
+            android:name=".immersion.ui.PicStatusBarActivity"
+            android:theme="@style/ImmersionTheme"/>
+
+        <!-- 彩色状态栏 -->
+        <activity
+            android:name=".immersion.ui.ColorStatusBarActivity"
+            android:theme="@style/ImmersionTheme"/>
+
+        <!-- 白色状态栏 -->
+        <activity
+            android:name=".immersion.ui.WhiteStatusBarActivity"
+            android:theme="@style/ImmersionTheme"/>
+        <activity
+            android:name=".immersion.ui.OverActivity"
+            android:theme="@style/ImmersionTheme"/>
+
+        <!-- 解决顶部与状态栏重叠问题 -->
+        <activity
+            android:name=".immersion.ui.OverSolveActivity"
+            android:theme="@style/ImmersionTheme"/>
 
     </application>
 

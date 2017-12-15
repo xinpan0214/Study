@@ -53,7 +53,7 @@ public class VipActivity extends BaseActivity implements View.OnClickListener{
         /**
          * 填充头像
          */
-        identityImageView.getBigCircleImageView().setImageResource(R.mipmap.guojia);
+        identityImageView.getBigCircleImageView().setImageResource(R.mipmap.head);
 
         /**
          * 生成小图
@@ -82,7 +82,7 @@ public class VipActivity extends BaseActivity implements View.OnClickListener{
                 /**
                  * 填充头像
                  */
-                identityImageView.getBigCircleImageView().setImageResource(R.mipmap.guojia);
+                identityImageView.getBigCircleImageView().setImageResource(R.mipmap.head);
                 break;
             }
             case R.id.bt2: {

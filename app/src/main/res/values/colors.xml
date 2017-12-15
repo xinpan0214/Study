@@ -11,11 +11,35 @@
     <color name="colorTitle">#3F51B5</color>
     <color name="black">#040404</color>
 
+    <color name="blueText">#1485C6</color>
+    <color name="blueIndexStatus">#67A5EF</color>
+    <color name="blueStatus">#1680E2</color>
+
     <!--brown-->
     <color name="colorBrownPrimary">#795548</color>
     <color name="colorBrownPrimaryDark">#5D4037</color>
     <color name="colorBrownAccent">#FF4081</color>
     <color name="colorBrownPrimaryCenter">#431d12</color>
+
+    <color name="github_color">#1E2327</color>
+    <color name="darker_gray">#aaa</color>
+    <color name="btn1">#69B056</color>
+    <color name="btn2">#FFD52B</color>
+    <color name="btn3">#CE413A</color>
+    <color name="btn4">#3F7FE4</color>
+    <color name="btn5">#A4C2F6</color>
+    <color name="btn6">#F78AE0</color>
+    <color name="btn7">#6638F0</color>
+    <color name="btn8">#5CD0FA</color>
+    <color name="btn9">#D93C33</color>
+    <color name="btn10">#D05C3C</color>
+    <color name="btn11">#985F9C</color>
+    <color name="btn12">#F6C150</color>
+    <color name="btn13">#4681F4</color>
+    <color name="btn14">#5EA379</color>
+    <color name="shape1">#5d8df7</color>
+    <color name="shape2">#5EB9F8</color>
+    <color name="shape3">#5CC2F8</color>
 
 
 

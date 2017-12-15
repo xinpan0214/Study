@@ -65,6 +65,7 @@
     <color name="guide">#AA86C166</color>
     <color name="menu_bg">#FFFFFB</color>
     <color name="translucent_background">#80000000</color>
+    <color name="translucent">#00000000</color>
     <color name="chat_list_item_time_bg">#CECECE</color>
     <color name="chat_list_item_name_color">#505050</color>
 
